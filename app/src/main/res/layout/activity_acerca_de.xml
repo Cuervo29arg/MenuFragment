@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pinomoreno.curso3tarea1.activities.AcercaDeActivity">
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miActionBar">
+        <TextView
+            android:id="@+id/tvAcercaDeContenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoAcercaDe"
+            android:padding="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>

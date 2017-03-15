@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">curso3Tarea4</string>
+    <string name="menu_acerca">Acerca</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="textoAcercaDe">Nombre: Jose Luis Pino \nFecha de nacimiento: 4 de Marzo de 1985 \nLugar de nacimiento: Orizaba, Veracruz
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
